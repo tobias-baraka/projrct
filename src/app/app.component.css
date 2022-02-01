@@ -1,0 +1,88 @@
+
+
+
+
+
+/*
+nav a:hover{
+  background-color: yellow;
+  transition: 0.5px;
+  text-transform: uppercase;
+}<app-about-us></app-about-us>
+
+.class-4.li.a{
+  color: yellow;
+}
+.navbar-custom {
+    background-color: #42ba96;
+
+    width: 100%;
+}
+nav a{
+
+  float: left;
+  color: #f2f2f2;
+
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+
+#class-4 {
+
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px
+
+  }
+
+
+.topnav-right {
+  float: right;
+  text-align: right;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+
+
+
+
+/*#topnav li {
+  float: right;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+}
+
+
+li {
+  left: 1000px;
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+
+}
+#class-7 {
+  width: 250px;
+  height: 100px;
+  margin: -50px 0 0 -10px;
+  position:absolute;
+ left:0;
+ top:0;
+ <select
+   formControlName="projectStatus">
+ <option value="stable">Stable</option>
+ <option value="critical">Critical</option>
+ <option value="Finished">Finished</option>
+</select>*/

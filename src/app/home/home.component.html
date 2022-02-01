@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+  <div class="col-xs-12">
+        <app-home-edit></app-home-edit>
+        <hr class="text-center">
+        <ul class="list-group">
+
+            <a href="#" class="list-group list-group-horizontal" style="width: 600px;
+                    height: 40px; margin-left: 300px;" *ngFor="let product of products">
+                    <button type="button" class="btn btn-outline-danger">Clear</button>
+                    <button type="button" class="btn btn-outline-success">Update</button>
+                <ul class="col-8 list-group-item">{{ product.name }}</ul>
+                <span class="col-4 list-group-item">Ksh.{{ product.amount }}</span>
+
+            </a>
+        </ul>
+
+    </div>
+</div>
+
+<button class="btn btn-success pull-right" style="margin-left: 1050px; margin-top: -70px; position: fixed;" type="submit" name="button">Submit</button>
+</div>
